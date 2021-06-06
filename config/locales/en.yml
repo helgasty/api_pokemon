@@ -1,0 +1,30 @@
+en:
+  api:
+    access:
+      not_allow: "access not allowed"
+    login:
+      login_success: "login success"
+      password_failed: "invalid password"
+      login_failed: "invalid login"
+      bad_request: "invalid request"
+      jwt_token_expired: "session expired"
+      jwt_token_error: "jwt token error"
+    pokemons:
+      error:
+        not_exist: "pokemon not exist"
+      index:
+        error: "error during get collection : %{error_message}"
+      show:
+        error: "pokemon not found"
+      create:
+        error: "error during creation : %{error_message}"
+      update:
+        success: "pokemon updated"
+        error: "update error : %{error_message}"
+      destroy:
+        success: "pokemon deleted"
+        error: "delete error"
+  model:
+    pokemons:
+      name_validate_presence: "pokemon name is required"
+      name_validate_format: "pokemon name format error"
