@@ -1,7 +1,3 @@
-# Test_PetalMD
-
-This is a test for job offer Ruby on Rails backend developper
-
 ## Installation
 
 To initialized the project, run this commands :
@@ -37,7 +33,8 @@ rails s
 - factory_bot_rails : generate entities for testing
 
 ## REST API
-API can be test with postman, configuration file is present in at the root of the project.
+API can be test with postman, configuration
+file is present in at the root of the project.
 
 ## Login 
 
